@@ -24,19 +24,19 @@ export default function ContactForm() {
                             <div className="row ">
                                 <div className="col-md-auto  col-auto">
                                     <a className="contactIcon" href="https://github.com/AmanKaur1011">
-                                        <i class="fa-brands fa-github"></i>
+                                        <i className="fa-brands fa-github"></i>
                                     </a>
                                 </div>
                                 <div className="col-md-auto col-auto ">
                                     <a
                                         className="contactIcon"
                                         href="https://www.linkedin.com/in/amanpreet-kaur-3045901b4/">
-                                        <i class="fa-brands fa-linkedin"></i>
+                                        <i className="fa-brands fa-linkedin"></i>
                                     </a>
                                 </div>
                                 <div className="col-md-auto col-auto ">
                                     <a className="contactIcon" href="#">
-                                        <i class="fa-brands fa-instagram"></i>
+                                        <i className="fa-brands fa-instagram"></i>
                                     </a>
                                 </div>
                             </div>

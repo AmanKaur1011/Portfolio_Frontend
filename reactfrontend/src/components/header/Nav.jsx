@@ -11,7 +11,7 @@ export default function Nav() {
     <nav id="main-navigation">
       <button className="menu-toggle" onClick={toggleMenu}>
         
-        <i class="fa-solid fa-bars menuIcon fa-2x"></i>
+        <i className="fa-solid fa-bars menuIcon fa-2x"></i>
       </button>
       <ul className="row navItems  justify-content-center  gap-5">
         <li className="col-md-auto col-sm-12 text-start"><Link className="fs-5 navItem " to="/aboutMe">About</Link></li>
