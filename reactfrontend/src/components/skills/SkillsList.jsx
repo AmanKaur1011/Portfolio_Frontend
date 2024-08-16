@@ -7,7 +7,7 @@ export default function SkillsList() {
 
   useEffect(() => {
     const getSkillsList = async () => {
-      let response = await fetch("http://localhost:3000/api/skills");
+      let response = await fetch("https://portfolio-backend-gaek.onrender.com/api/skills");
       let data = await response.json();
       setSkills(data);
     };
@@ -32,7 +32,7 @@ export default function SkillsList() {
             <li key={skill._id} className="skill-item  ps-3 pe-3">
               <div className="d-flex justify-content-center">
               <img
-                src={`http://localhost:3000/public/${skill.ImagePath}`}
+                src={`https://portfolio-backend-gaek.onrender.com/public/${skill.ImagePath}`}
                 height="70"
                 width="70"
                 alt="SkillImage" 
@@ -46,7 +46,7 @@ export default function SkillsList() {
             <li key={`${skill._id}-duplicate`} className="skill-item  ps-3 pe-3">
               <div className="d-flex justify-content-center">
               <img
-                src={`http://localhost:3000/public/${skill.ImagePath}`}
+                src={`https://portfolio-backend-gaek.onrender.com/${skill.ImagePath}`}
                 height="70"
                 width="70"
                 alt="SkillImage"

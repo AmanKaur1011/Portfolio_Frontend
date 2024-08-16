@@ -8,7 +8,7 @@ export default function ProjectList() {
 
   useEffect(() => {
     const getProjectList = async () => {
-      let response = await fetch("http://localhost:3000/api/projects");
+      let response = await fetch("https://portfolio-backend-gaek.onrender.com/api/projects");
       let data = await response.json();
       setProjects(data);
     }

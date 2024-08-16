@@ -41,4 +41,9 @@ text-align: center;
   .carousel-indicators .active {
     background-color:  #EE2556ff; /* Color for the active indicator */
   }
-  
+  .codebaseLink{
+    color:#EE2556ff;
+  }
+  .link-underline:hover {
+    text-decoration-color: #EE2556ff !important;
+  }

@@ -9,7 +9,7 @@ export default function ProjectInfo() {
     useEffect(() => {
         console.log(Id);
         const fetchProject = async () => {
-          let response = await fetch(`http://localhost:3000/api/projectDetail?Id=${Id}`);
+          let response = await fetch(`https://portfolio-backend-gaek.onrender.com/api/projectDetail?Id=${Id}`);
           let data = await response.json();
           console.log(data);
           setProject(data);
@@ -100,7 +100,7 @@ export default function ProjectInfo() {
     <div className="carousel-inner">
       {project.images.map((image, index) => (
         <div className={`carousel-item ${index === 0 ? 'active' : ''}`} key={index}>
-          <img src={`http://localhost:3000/public/${image}`} className="img-fluid projectImage" alt={`Slide ${index + 1} - project Picture`} aria-hidden="true" />
+          <img src={`https://portfolio-backend-gaek.onrender.com/public/${image}`} className="img-fluid projectImage" alt={`Slide ${index + 1} - project Picture`} aria-hidden="true" />
         </div>
       ))}
     </div>
